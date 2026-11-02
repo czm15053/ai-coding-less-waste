@@ -26,10 +26,10 @@
 .search-options{margin:30px 0}.search-option{display:grid;grid-template-columns:90px 1fr;gap:24px;border-top:1px solid var(--line);padding:23px 0}.search-option:last-child{border-bottom:1px solid var(--line)}.search-option .method{font-family:var(--mono);color:var(--orange);font-size:12px;padding-top:5px}.search-option h3{font-size:21px;margin-bottom:9px}.search-option p{font-size:14px;margin:0}.search-option .limit{margin-top:10px;font-size:12px;color:var(--muted)}.case{margin:28px 0;padding:26px 28px;border:1px solid #aebda6;background:var(--surface)}.case .case-label{font-family:var(--mono);font-size:10px;color:var(--orange);letter-spacing:.1em;margin-bottom:12px}.case h4{font-family:var(--serif);font-size:22px;margin-bottom:13px}.case p{font-size:14px}.case p:last-child{margin:0}
 .experiment{margin:34px 0;background:var(--green);padding:30px;color:var(--surface)}.experiment h3{font-size:24px;margin:0 0 12px}.experiment>p{font-size:13px;color:#e0e6d9}.experiment-controls{display:grid;grid-template-columns:1fr 1fr;gap:26px}.range-row label{font-size:12px;display:block}.range-value{font-family:var(--mono);font-size:23px;display:block;margin:8px 0}.range-row input{width:100%;accent-color:#ecc69d;cursor:pointer;min-height:36px}.experiment-result{border-top:1px solid #738b72;margin-top:22px;padding-top:22px;display:flex;align-items:center;justify-content:space-between;gap:25px}.experiment-result>span{font-size:13px}.experiment-result output{font-family:var(--mono);font-size:44px;color:#f2cda9;line-height:1.2}.experiment .assumption{font-size:11px;color:#e0e6d9;margin:18px 0 0}.checklist{list-style:none;padding:0!important;margin:24px 0}.checklist li{display:grid;grid-template-columns:35px 1fr;gap:13px;border-bottom:1px solid var(--line);padding:18px 0;margin:0}.checklist .check-num{font-family:var(--mono);font-size:12px;color:var(--orange);padding-top:4px}.checklist h3{font-size:21px;margin:0 0 9px}.checklist p{font-size:14px;margin:0}.closing{max-width:720px;margin:55px auto 0;padding:30px 0;border-block:1px solid var(--ink);text-align:center}.closing p{font-family:var(--serif);font-size:28px;line-height:1.6;margin:0;color:var(--green)}.closing small{font-size:11px;color:var(--muted);display:block;margin-top:13px}
 .references{max-width:720px;margin:58px auto 70px}.references h2{font-family:var(--serif);font-size:24px;margin-bottom:12px}.references>p{font-size:12px;color:var(--muted)}.sources-list{margin:22px 0 0;padding:0;list-style:none;counter-reset:source}.sources-list li{counter-increment:source;display:grid;grid-template-columns:24px 1fr;gap:12px;padding:14px 0;border-top:1px solid var(--line);margin:0;font-size:12px}.sources-list li:before{content:counter(source,decimal-leading-zero);font-family:var(--mono);color:var(--orange);font-size:10px;padding-top:3px}.sources-list li:target{background:var(--green-soft);outline:6px solid var(--green-soft)}.sources-list a{font-weight:600}.sources-list p{font-size:11px;color:var(--muted);margin:5px 0 0}.footer{display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid var(--ink);padding:22px 0 35px;font-size:10px;color:var(--muted);letter-spacing:.04em}.print-button{border:1px solid var(--line);background:transparent;min-height:40px;padding:7px 14px;font-size:11px}.print-button:hover{border-color:var(--green);color:var(--green)}
-.lightbox{border:0;padding:0;width:calc(100% - 36px);max-width:1260px;height:calc(100dvh - 36px);max-height:1200px;overflow:hidden;background:var(--paper);color:var(--ink);box-shadow:0 15px 90px #0005}.lightbox::backdrop{background:#14241cde}.lightbox-shell{height:100%;display:flex;flex-direction:column}.lightbox-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 20px;border-bottom:1px solid var(--line);flex:none}.lightbox-title{font-size:13px;margin:0;line-height:1.7}.lightbox-close{font-size:12px;flex:none;border:1px solid var(--line);padding:7px 16px;background:var(--surface);min-height:44px}.lightbox-stage{overflow:auto;min-height:0;flex:1;padding:20px;text-align:center;display:grid;place-items:start center}.lightbox-stage img{width:auto;max-width:100%;height:auto;max-height:100%;object-fit:contain;margin:auto;cursor:zoom-in}.lightbox-stage.zoomed{display:block}.lightbox-stage.zoomed img{width:1400px;max-width:none;max-height:none;cursor:zoom-out;margin:auto}.lightbox-help{font-size:11px;color:var(--muted);margin:0;padding:8px 20px;border-top:1px solid var(--line)}.lightbox-image-button{display:contents}.js-only[hidden]{display:none!important}
+.lightbox{border:0;padding:0;width:auto;height:auto;max-width:96vw;max-height:94dvh;overflow:visible;border-radius:0;background:transparent;box-shadow:none;color:#f6f3e8}.lightbox::backdrop{background:rgba(10,20,15,.55);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}.lightbox-shell{display:block;height:auto}.lightbox-header,.lightbox-title,.lightbox-close,.lightbox-help{display:none}.lightbox-stage{overflow:auto;max-width:96vw;max-height:94dvh;padding:0;display:flex;align-items:center;justify-content:center;background:transparent}.lightbox-stage img{width:auto;max-width:96vw;max-height:94dvh;height:auto;object-fit:contain;margin:auto;cursor:zoom-in;border-radius:10px;box-shadow:0 18px 60px rgba(0,0,0,.45)}.lightbox-stage.zoomed{display:block}.lightbox-stage.zoomed img{width:1400px;max-width:none;max-height:none;cursor:zoom-out;margin:auto}.lightbox-image-button{display:contents}.js-only[hidden]{display:none!important}
 @media(min-width:1250px){.hero{gap:75px}.receipt-wrap{padding-right:20px}.reading{max-width:700px}.chapter-head{grid-template-columns:165px 1fr;gap:29px}}
 @media(max-width:800px){.wrap{padding-inline:26px}.hero{grid-template-columns:1fr .78fr;gap:26px;padding-block:43px 37px}.hero h1{font-size:45px}.dek{font-size:15px}.receipt{padding:22px 18px}.receipt h2{font-size:21px}.receipt-total strong{font-size:18px}.chapter-head{grid-template-columns:80px 1fr;gap:16px}.chapter-head h2{font-size:30px}.chapter-no{font-size:65px}.illustrated{gap:28px}.pipeline{grid-template-columns:repeat(2,1fr)}.pipeline>div:nth-child(3){border-left:0}.pipeline>div:nth-child(n+3){border-top:1px solid var(--line)}.principles{gap:17px}.principle{padding-right:0}.principle+.principle{padding-left:17px}.principle h2{font-size:17px}}
-@media(max-width:600px){html{scroll-padding-top:15px}.wrap{padding-inline:22px}.masthead{padding-block:21px 17px;font-size:10px}.edition{font-size:9px}.brand{gap:8px;letter-spacing:.1em}.brand-mark{width:18px;height:18px}.hero{grid-template-columns:1fr;padding-block:35px 31px;gap:28px}.hero h1{font-size:clamp(39px,10.4vw,59px);line-height:1.22;margin-bottom:24px;letter-spacing:-.035em}.eyebrow{font-size:10px;margin-bottom:19px}.dek{font-size:15px;max-width:450px}.hero-meta{margin-top:21px;font-size:10px}.receipt-wrap{max-width:370px;width:100%;justify-self:center;padding:12px 14px 12px 8px}.receipt{padding:21px 22px 20px}.receipt-top{padding-bottom:12px;font-size:9px}.receipt h2{font-size:23px;margin:16px 0 6px}.receipt .ticket-note{margin-bottom:12px}.receipt-row{padding:9px 0}.receipt-total{margin-top:14px;padding-top:12px}.receipt-stamp{margin-top:12px}.principles{grid-template-columns:1fr;gap:18px;padding-block:23px}.principle{display:grid;grid-template-columns:32px 1fr;gap:0 10px}.principle+.principle{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:18px}.principle small{grid-row:1/3;padding-top:5px}.principle small span{display:none}.principle h2{font-size:20px;margin:0 0 6px}.principle p{font-size:12px}.opening{margin-top:37px;font-size:15px}.opening .lead{font-size:22px}.chapter{margin-top:56px;padding-top:26px}.chapter-head{grid-template-columns:50px 1fr;gap:14px;margin-bottom:30px}.chapter-no{font-size:49px}.chapter-label{font-size:9px;margin-bottom:6px;letter-spacing:.1em}.chapter-head h2{font-size:27px;line-height:1.45}.chapter-head p{font-size:13px;margin-top:10px}.reading{font-size:15px;line-height:1.95}.reading>h3{font-size:22px;margin-top:32px}.context-stack{padding:18px}.stack-row{grid-template-columns:20px 1fr;gap:3px 8px;padding:11px 0;font-size:13px}.stack-row small{grid-column:2}.call-step{padding:16px 10px}.call-step strong{font-size:19px}.call-step small{font-size:10px}.call-step p{font-size:10px}.formula{padding:21px}.formula p{font-size:18px}.habit{gap:8px;grid-template-columns:25px 1fr;margin:27px 0}.habit h3{font-size:21px}.template pre{font-size:12px;padding:17px}.template-head{padding:10px 14px}.copy-button{padding:5px 12px;min-height:40px}.illustrated{grid-template-columns:1fr;gap:24px;margin:32px 0}.illustrated .prose{max-width:none;font-size:15px}.illustrated .prose h3{font-size:23px}.illustrated .art{max-width:440px}.art figcaption{font-size:11px}.compare{grid-template-columns:1fr}.compare>div{padding:20px}.compare>div+div{border-left:0;border-top:1px solid var(--line)}.pipeline>div{padding:18px 15px}.pipeline h3{font-size:19px}.search-option{grid-template-columns:67px 1fr;gap:13px}.search-option .method{font-size:10px}.search-option h3{font-size:20px}.search-option p{font-size:13px}.chapter-summary{gap:14px;font-size:13px;padding:18px 0}.chapter-summary span{font-size:9px}.case{padding:22px}.experiment{padding:23px 20px}.experiment h3{font-size:22px}.experiment-controls{gap:20px}.range-row label{font-size:11px}.experiment-result output{font-size:37px}.closing{margin-top:40px}.closing p{font-size:23px}.references{margin-top:40px;margin-bottom:45px}.footer{font-size:9px;flex-wrap:wrap}.lightbox{width:calc(100% - 16px);height:calc(100dvh - 16px)}.lightbox-header{padding:10px 12px;gap:10px}.lightbox-title{font-size:12px}.lightbox-stage{padding:8px}.lightbox-close{padding-inline:12px}.table-wrap{margin-inline:-2px}.table-wrap:before{content:"可左右滑动查看完整表格 →";display:block;font-size:10px;color:var(--muted);padding:8px 10px;background:var(--surface)}th,td{padding:12px}}
+@media(max-width:600px){html{scroll-padding-top:15px}.wrap{padding-inline:22px}.masthead{padding-block:21px 17px;font-size:10px}.edition{font-size:9px}.brand{gap:8px;letter-spacing:.1em}.brand-mark{width:18px;height:18px}.hero{grid-template-columns:1fr;padding-block:35px 31px;gap:28px}.hero h1{font-size:clamp(39px,10.4vw,59px);line-height:1.22;margin-bottom:24px;letter-spacing:-.035em}.eyebrow{font-size:10px;margin-bottom:19px}.dek{font-size:15px;max-width:450px}.hero-meta{margin-top:21px;font-size:10px}.receipt-wrap{max-width:370px;width:100%;justify-self:center;padding:12px 14px 12px 8px}.receipt{padding:21px 22px 20px}.receipt-top{padding-bottom:12px;font-size:9px}.receipt h2{font-size:23px;margin:16px 0 6px}.receipt .ticket-note{margin-bottom:12px}.receipt-row{padding:9px 0}.receipt-total{margin-top:14px;padding-top:12px}.receipt-stamp{margin-top:12px}.principles{grid-template-columns:1fr;gap:18px;padding-block:23px}.principle{display:grid;grid-template-columns:32px 1fr;gap:0 10px}.principle+.principle{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:18px}.principle small{grid-row:1/3;padding-top:5px}.principle small span{display:none}.principle h2{font-size:20px;margin:0 0 6px}.principle p{font-size:12px}.opening{margin-top:37px;font-size:15px}.opening .lead{font-size:22px}.chapter{margin-top:56px;padding-top:26px}.chapter-head{grid-template-columns:50px 1fr;gap:14px;margin-bottom:30px}.chapter-no{font-size:49px}.chapter-label{font-size:9px;margin-bottom:6px;letter-spacing:.1em}.chapter-head h2{font-size:27px;line-height:1.45}.chapter-head p{font-size:13px;margin-top:10px}.reading{font-size:15px;line-height:1.95}.reading>h3{font-size:22px;margin-top:32px}.context-stack{padding:18px}.stack-row{grid-template-columns:20px 1fr;gap:3px 8px;padding:11px 0;font-size:13px}.stack-row small{grid-column:2}.call-step{padding:16px 10px}.call-step strong{font-size:19px}.call-step small{font-size:10px}.call-step p{font-size:10px}.formula{padding:21px}.formula p{font-size:18px}.habit{gap:8px;grid-template-columns:25px 1fr;margin:27px 0}.habit h3{font-size:21px}.template pre{font-size:12px;padding:17px}.template-head{padding:10px 14px}.copy-button{padding:5px 12px;min-height:40px}.illustrated{grid-template-columns:1fr;gap:24px;margin:32px 0}.illustrated .prose{max-width:none;font-size:15px}.illustrated .prose h3{font-size:23px}.illustrated .art{max-width:440px}.art figcaption{font-size:11px}.compare{grid-template-columns:1fr}.compare>div{padding:20px}.compare>div+div{border-left:0;border-top:1px solid var(--line)}.pipeline>div{padding:18px 15px}.pipeline h3{font-size:19px}.search-option{grid-template-columns:67px 1fr;gap:13px}.search-option .method{font-size:10px}.search-option h3{font-size:20px}.search-option p{font-size:13px}.chapter-summary{gap:14px;font-size:13px;padding:18px 0}.chapter-summary span{font-size:9px}.case{padding:22px}.experiment{padding:23px 20px}.experiment h3{font-size:22px}.experiment-controls{gap:20px}.range-row label{font-size:11px}.experiment-result output{font-size:37px}.closing{margin-top:40px}.closing p{font-size:23px}.references{margin-top:40px;margin-bottom:45px}.footer{font-size:9px;flex-wrap:wrap}.lightbox{width:auto;height:auto;max-width:96vw;max-height:94dvh}.lightbox-header{padding:10px 12px;gap:10px}.lightbox-title{font-size:12px}.lightbox-stage{padding:0}.lightbox-close{padding-inline:12px}.table-wrap{margin-inline:-2px}.table-wrap:before{content:"可左右滑动查看完整表格 →";display:block;font-size:10px;color:var(--muted);padding:8px 10px;background:var(--surface)}th,td{padding:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{html{scroll-behavior:auto}body{background:white;color:#111;font-size:11pt}.wrap{max-width:none;padding:0}.progress,.skip-link,.copy-button,.copy-status,.print-button,.zoom-hint,.lightbox,.experiment-controls{display:none!important}.hero{padding:24px 0;gap:25px}.hero h1{font-size:36pt}.receipt-wrap:before{display:none}.receipt{transform:none;box-shadow:none}.chapter{margin-top:35px;break-before:page}.chapter-head{grid-template-columns:60px 1fr;gap:15px;margin-bottom:25px;break-after:avoid}.chapter-no{font-size:42pt}.chapter-head h2{font-size:24pt}.reading{max-width:none;font-size:11pt}.illustrated{gap:25px;break-inside:avoid}.art{max-width:310px}.art-button{box-shadow:none}.principles{break-inside:avoid}.table-wrap{overflow:visible}table{min-width:0;font-size:10pt}tr{break-inside:avoid}.formula,.experiment{background:#eef2eb;color:#111;print-color-adjust:exact}.formula .diagram-label,.formula small,.experiment>p,.experiment .assumption,.experiment-result output{color:#333}.template,.case,.note{break-inside:avoid}.template pre{font-size:10pt}.tool-detail .detail-body{display:block}.tool-detail{break-inside:avoid}.references{max-width:none}.references a{overflow-wrap:anywhere}.closing{max-width:none}.sources-list li{break-inside:avoid}h3,h4{break-after:avoid}p{orphans:3;widows:3}.footer{padding-bottom:0}}
 /* 完整图文长卷：原段落与插图依序呈现 */
@@ -190,8 +190,15 @@
 .overview-map .art-button{margin-top:26px}
 .overview-map .art-button{background:#faf6ea}
 @media(max-width:800px){.overview-map{max-width:100%;margin-top:32px}}
+.chapter-jump{position:fixed;left:28px;top:42%;z-index:10;display:flex;flex-direction:column;gap:7px;padding-left:12px;border-left:1px solid var(--line);font-family:var(--mono);font-size:11px;line-height:1.6}
+.chapter-jump>span{margin-bottom:3px;color:var(--muted);font-size:10px;letter-spacing:.08em}
+.chapter-jump a{color:var(--muted);text-decoration:none;font-weight:400}
+.chapter-jump a:hover{color:var(--green);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1350px){.chapter-jump{display:none}}
+@media print{.chapter-jump{display:none}}
 </style><script defer>(() => {
   'use strict';
+  document.addEventListener('DOMContentLoaded', () => {
   const progress = document.querySelector('.progress');
   let scheduled = false;
   function updateProgress() {
@@ -251,11 +258,9 @@
       });
     });
     dialog.querySelector('.lightbox-close').addEventListener('click', () => dialog.close());
+    const shell = dialog.querySelector('.lightbox-shell');
     dialog.addEventListener('click', event => {
-      if (event.target === dialog) {
-        const r = dialog.getBoundingClientRect();
-        if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close();
-      }
+      if (event.target === dialog || event.target === shell || event.target === stage) dialog.close();
     });
     dialog.addEventListener('close', () => {
       document.body.style.overflow = previousOverflow;
@@ -280,6 +285,7 @@
     closedDetails.forEach(el => { el.open = false; });
     closedDetails = [];
   });
+  });
 })();
 </script></head>
 <body><div aria-hidden="true" class="progress"></div><a class="skip-link" href="#article">跳到正文</a><div class="wrap">
@@ -287,6 +293,7 @@
 <div class="hero"><div><p class="eyebrow"><span>FIELD GUIDE</span><strong>2026 年版</strong></p><h1><span>如何让 AI 编程</span><em>少花冤枉钱</em></h1><div class="dek-wrap"><p class="dek">从看懂账单、改善习惯到选对工具，<br/>让每一次调用都更接近可靠的交付。</p></div><div class="hero-meta"><span class="pill author">作者 · czm</span><span class="pill">6 章 + 结语</span><span class="pill">约 50 分钟阅读</span></div></div>
 <div class="receipt-wrap"><div class="receipt"><div class="receipt-top"><span>THE REAL COST</span><span>No. 001</span></div><h2>一条需求背后的账单</h2><p class="ticket-note">输入框里的文字，只是开始。</p><div class="receipt-row"><span>基础上下文</span><span>规则 · 工具 · 环境</span></div><div class="receipt-row"><span>任务推进</span><span>读取 · 思考 · 修改</span></div><div class="receipt-row"><span>后续调用</span><span>历史 · 结果 · 验证</span></div><div class="receipt-total"><small>最终要比较的，是</small><strong>完成一项任务的总成本</strong></div><div class="receipt-stamp">质量 · 费用 · 时间</div></div></div></div></header>
 <figure class="art overview-map"><a aria-label="放大查看 全文导览：AI编程成本治理全景图" class="art-button" href="https://origin.picgo.net/2026/10/12/fig-overview-overview-mape6d00a10e0291337.jpg"><img alt="全文导览：AI编程成本治理全景图，成本=量×价×次，六章从账单剖析到会话隔离" decoding="async" height="768" loading="lazy" src="https://origin.picgo.net/2026/10/12/fig-overview-overview-mape6d00a10e0291337.jpg" width="1376"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a><figcaption><b>全文导览</b>从一张账单出发，沿六个方向拆解 AI 编程的成本结构与降本路径。<small>成本 = 量 × 价 × 次；最终以质量、费用、时间三要素综合验证。</small></figcaption></figure>
+<nav class="chapter-jump" aria-label="章节快速跳转"><span>快速跳转</span><a href="#section-chapter-1">01 账单剖析</a><a href="#section-chapter-2">02 使用习惯</a><a href="#section-chapter-3">03 模型路由</a><a href="#section-chapter-4">04 上下文压缩</a><a href="#section-chapter-5">05 代码检索</a><a href="#section-chapter-6">06 会话隔离</a><a href="#section-chapter-7">07 结语</a></nav>
 <main class="article" id="article">
 <section aria-labelledby="chapter-1" class="chapter" id="section-chapter-1"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">01</span><div class="chapter-heading"><div class="chapter-label">ANATOMY · 账单剖析</div><h2 id="chapter-1">第一章 账单到底花在哪</h2><p data-paragraph="1-0">一条简短需求，为什么会产生远多于输入框字数的消耗？先拆开一次完整请求。</p><span class="chapter-stamp">本章关键词 · 量价分开</span></div></div><div class="chapter-intro reading"><p data-paragraph="1-1">你敲进输入框的那句话，从来不是请求的全部。系统提示、工具说明、项目规则、会话历史——这些东西跟着你的问题一起塞进模型。想看懂账单，先搞清楚这支随行队伍有多大。</p><p data-paragraph="1-2">我翻过一次自己的实际请求明细：新开一个会话，只发一句「Hello」。第一次请求的输入就有 28,358 Token。具体数字会随环境变，但「基础上下文是笔大钱」这件事是通用的。你自己的环境，也值得看一眼。</p></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-1-1"><span class="subsection-number">1.1</span> <span class="subsection-title">一次请求里，除了你的问题还有什么</span></h3><p data-paragraph="1-3">在这个案例中，用户的问候只占很小一部分。把这份基础上下文拆成七类，方便判断哪些由客户端提供、哪些自己能调。</p><div class="table-wrap">
 <table>
@@ -341,7 +348,7 @@
 </figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-1-2"><span class="subsection-number">1.2</span> <span class="subsection-title">历史如何累积为重复输入</span></h3><p data-paragraph="1-6">模型本身无状态。它这次能看到什么，完全取决于这次请求里实际塞进去的上下文。</p><p data-paragraph="1-7">点一次发送，后台可能触发多次模型调用。每一轮调用前，客户端都会把系统提示、工具定义、会话历史重新拼装成完整上下文。如果模型调用了工具，拿到工具返回结果之后，还会再发起一轮模型请求。自动压缩、裁剪会话历史、工具延迟加载这些机制，都会改变模型实际读到的上下文。</p><p data-paragraph="1-8">这解释了下图的“滚雪球”现象：<strong>历史越长，后续调用需要重复处理的输入就越多。</strong>这里讨论的是上下文累积机制。</p><p data-paragraph="1-9"><strong>第 N 次调用的输入量，约等于基础上下文 + 仍保留的历史 + 本次新增。</strong>累计输入要逐次相加——调用次数越多，前面的历史被重复计费的次数也越多。这才是滚雪球真正的来源。</p><p data-paragraph="1-10">假设同一任务先查状态、再改代码、最后跑测试，触发了 3 次模型调用。每次输入约 2 万 Token，累计输入就约为 6 万 Token。<strong>工具执行次数与模型调用次数也要分开统计</strong>：独立工具请求能合并在同一轮。存在依赖的步骤，必须顺序进行。</p></div><figure class="art">
 <a aria-label="放大查看 图 1-2 每轮账单的复利滚雪球（历史重读逐级累积）" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-1-2-doodle2d6d87f5aeff12a3.webp"><img alt="图 1-2 每轮账单的复利滚雪球（历史重读逐级累积）" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-1-2-doodle2d6d87f5aeff12a3.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 1-2 每轮账单的复利滚雪球（历史重读逐级累积）<small>示意的是重复输入累积；图中“15 倍”需要具体的轮次假设支撑，不能直接解释为费用倍数。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-1-3"><span class="subsection-number">1.3</span> <span class="subsection-title">把 Token 数量与实际费用分开看</span></h3><p data-paragraph="1-11">算账的第一性原理，可以用一个核心公式概括：<strong>成本 = 量 × 价 × 次</strong>。<strong>量</strong>是每次请求带进多少 Token（前缀、历史、代码切片、工具回显）；<strong>价</strong>是每个 Token 算多少钱（依赖缓存命中率与模型档位）；<strong>次</strong>是同样的内容被重复计费了多少轮（交互轮数与失败重试）。三个因子是相乘关系，任何一项失控都会被另外两项成倍放大。看账单时，先区分以下四类用量：</p><div class="table-wrap">
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-1-3"><span class="subsection-number">1.3</span> <span class="subsection-title">把 Token 数量与实际费用分开看</span></h3><p data-paragraph="1-11">算账的第一性原理，可以用一个核心公式概括：<strong>成本 = 量 × 价 × 次</strong>。<strong>量</strong>是每次请求带进多少 Token（前缀、历史、代码切片、工具回显）；<strong>价</strong>是每个 Token 算多少钱（依赖缓存命中率与模型档位）；<strong>次</strong>是同样的内容被重复计费了多少轮（交互轮数与失败重试）。三个因子是相乘关系，任何一项失控都会被另外两项成倍放大。<a href="https://platform.claude.com/docs/zh-CN/about-claude/pricing#model-pricing" target="_blank" rel="noopener noreferrer">看账单时，先区分以下四类用量</a>：</p><div class="table-wrap">
 <table>
 <thead>
 <tr>
@@ -381,7 +388,7 @@
 知道了量价分离的道理，再回头看一个最常见的疑问：同样的请求发第二次，为什么有时候便宜很多？</p></div><figure class="art">
 <a aria-label="放大查看 图 1-3 量最多的不一定最贵（数量占比 vs 费用占比倒挂）" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-1-3-doodle160ead4dde8155be.webp"><img alt="图 1-3 量最多的不一定最贵（数量占比 vs 费用占比倒挂）" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-1-3-doodle160ead4dde8155be.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 1-3 量最多的不一定最贵（数量占比 vs 费用占比倒挂）<small>图中占比为说明量价差异的示意，不能用作本机账单。具体倍率按同一模型价目核对。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-1-4"><span class="subsection-number">1.4</span> <span class="subsection-title">前缀缓存：哪些内容可以复用</span></h3><p data-paragraph="1-14"><strong>Prompt caching 让重复前缀的处理结果得以复用，降低符合条件的重复输入成本。</strong>它缓存的是前缀处理结果，回复仍需要生成。</p><p data-paragraph="1-15">拿 Anthropic 的前缀缓存举例。想要命中缓存，前缀内容必须完全一致，同时满足最小长度、有效期、缓存控制等条件。只要靠前的内容发生改动，后面一大段前缀就会缓存失效。只有位置靠后、且内容完全不变的短前缀，才能够继续复用。缓存读取实际折扣，请以对应模型价目表为准。</p><p data-paragraph="1-16">拿盖楼打个比方：请求上下文就像从地基往上盖的一串严格依赖链——<strong>系统提示 → 工具定义 → 项目规则 → 偏好记忆 → 历史消息 → 本轮新增</strong>。地基越稳固，上层就越容易被缓存复用。一旦改动靠前的内容，后面一大段前缀就会立刻失效。这也是为什么<strong>绝不要在任务排查中途频繁改配置</strong>：排查到第 20 轮时随手改动前部的 Rules，不仅导致规则本身需要重新写入，后面整整 20 轮原本可以 0.1× 命中的历史前缀，全得当场重新按全价算一遍。</p><p data-paragraph="1-17">能控制请求组织方式时，从两点入手：</p><ul>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-1-4"><span class="subsection-number">1.4</span> <span class="subsection-title"><a href="https://code.claude.com/docs/en/prompt-caching#actions-that-invalidate-the-cache" target="_blank" rel="noopener noreferrer">前缀缓存</a>：哪些内容可以复用</span></h3><p data-paragraph="1-14"><strong>Prompt caching 让重复前缀的处理结果得以复用，降低符合条件的重复输入成本。</strong>它缓存的是前缀处理结果，回复仍需要生成。</p><p data-paragraph="1-15">拿 Anthropic 的前缀缓存举例。想要命中缓存，前缀内容必须完全一致，同时满足最小长度、有效期、缓存控制等条件。只要靠前的内容发生改动，后面一大段前缀就会缓存失效。只有位置靠后、且内容完全不变的短前缀，才能够继续复用。缓存读取实际折扣，请以对应模型价目表为准。</p><p data-paragraph="1-16">拿盖楼打个比方：请求上下文就像从地基往上盖的一串严格依赖链——<strong>系统提示 → 工具定义 → 项目规则 → 偏好记忆 → 历史消息 → 本轮新增</strong>。地基越稳固，上层就越容易被缓存复用。一旦改动靠前的内容，后面一大段前缀就会立刻失效。这也是为什么<strong>绝不要在任务排查中途频繁改配置</strong>：排查到第 20 轮时随手改动前部的 Rules，不仅导致规则本身需要重新写入，后面整整 20 轮原本可以 0.1× 命中的历史前缀，全得当场重新按全价算一遍。</p><p data-paragraph="1-17">能控制请求组织方式时，从两点入手：</p><ul>
 <li><strong>稳定内容前置，易变信息后置</strong>：在可配置的范围内保持系统提示与核心工具说明稳定，将动态时间戳等易变内容放在适当的后部位置；</li>
 <li><strong>综合评估稳定与精简</strong>：删改前缀可能带来一次缓存重建，但更短的上下文也可能节省后续费用，需要按整个任务周期比较。</li>
 </ul><p data-paragraph="1-18">Anthropic 默认缓存有效期为 5 分钟（可配置为 1 小时），每次命中会自动刷新倒计时。但在实际开发中，如果中途离开去倒杯咖啡或长时间思考，一旦超过 5 分钟，回来后的下一轮请求就会退化为全额冷启动。在长耗时任务中保持连贯交互，也是守住缓存收益的细节习惯。</p></div><figure class="art">
@@ -411,16 +418,12 @@
 </figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-2-3"><span class="subsection-number">2.3</span> <span class="subsection-title">日志只贴能定位问题的那一段</span></h3><p data-paragraph="2-14">粘贴运行报错时，挑出最关键的三样信息即可：执行的失败命令、关键报错提示与相关堆栈。跑测试失败时，先把失败用例的名字和报错差异给它。几百行顺利通过的废话留在本地，模型需要时再补充。</p><p data-paragraph="2-15">遇到超长的完整日志，存成本地文件，把路径给它，让模型自己去读相关段落。筛选报错时要保留真实的退出状态，终端回显显示得短，不代表命令真的跑通了。遇到异步任务失败，原因往往出现在很早的记录里，按请求编号去找，别只截取最末尾的连锁报错。</p></div><figure class="art">
 <a aria-label="放大查看 图 2-3 报错日志截取：按 TraceId 抓根因 vs 截末尾连锁反应" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-2-3-doodleb22f58d5e15cefd0.webp"><img alt="图 2-3 报错日志截取：按 TraceId 抓根因 vs 截末尾连锁反应" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-2-3-doodleb22f58d5e15cefd0.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 2-3 报错日志截取：按 TraceId 抓根因 vs 截末尾连锁反应</figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-2-4"><span class="subsection-number">2.4</span> <span class="subsection-title">常驻规则只放每轮都要用的东西</span></h3><p class="section-intro">配置要按生命周期分层：越高频、越短越适合常驻；越低频、越重越必须按需触发。</p><p data-paragraph="2-16">很多开发者把所有约定一股脑塞进全局规则，导致每轮调用的系统底噪飙升。现代 AI 编程工具通常有五层配置载体，它们的加载时机与缓存代价截然不同：</p><ul>
-<li><strong>Memory（偏好记忆）</strong>：全量常驻 System Prompt。只适合放单句稳定偏好（如“统一 4 空格缩进”）；位于前缀链前端，中途改一条整条缓存链断裂。</li>
-<li><strong>Rules（规范约定）</strong>：高频命令与核心红线常驻；低频专用规范（如数据库迁移、发版清单）应设为按需触发，不触发时零开销。</li>
-<li><strong>Skills（能力工作流）</strong>：存在<strong>单向流入陷阱</strong>。未触发前仅占几十 Token 描述；但一旦被触发，整篇流程与文档永久注入对话历史，后续每轮都要带着走且无法卸载，切忌随意预加载。</li>
-<li><strong>MCP 工具（外部扩展）</strong>：<strong>这就好比去餐馆看菜单，菜单上只印菜名就行，千万别把每道菜的做法火候全印在上面</strong>。每个工具 Schema 占 200～500 Token 常驻底噪；调用结果还会不断沉淀进历史。不用的 MCP 插件务必及时关掉。</li>
-<li><strong>项目文档（长篇背景）</strong>：<strong>用路径引用代替全文内联</strong>。规则里只写“规范参见 docs/api.md”，让模型按需读取，坚决避免将上千行文档直接内联进规则。</li>
-</ul><p data-paragraph="2-17">算一笔常驻成本账：一份 2,000 Token 的常驻规则，在 30 轮调用中累计参与计算就达 60,000 Token。将缩进、引号等格式交给格式化工具，把业务细节分流到子文档，根规则只留全局红线与关键命令。</p><p data-paragraph="2-18">规则不仅要分类型，还要分层级。根规则管住全局，子目录再按需挂载细则，实现局部隔离。</p></div><figure class="art">
-<a aria-label="放大查看 图 2-4b 五层配置决策树与生命周期全景" class="art-button" href="https://origin.picgo.net/2026/10/09/fig-2-4b-doodle0e4c99baffd1f4d5.webp"><img alt="图 2-4b 五层配置决策树与生命周期全景" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/09/fig-2-4b-doodle0e4c99baffd1f4d5.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 2-4b 五层配置决策树与生命周期全景<small>2,000 × 30 = 60,000 表示累计输入 Token；金额还需要区分缓存与非缓存用量。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><p data-paragraph="2-19">以开源项目常见的规则目录组织为例，可以借鉴的是它的分层结构：根文件只放构建测试命令与核心业务约束；架构原理、测试政策和发布流程通过链接放入 <code>docs</code> 与 <code>.agents</code>，需要时再由模型按需读取。</p><p data-paragraph="2-20">目录级规则继续细分适用范围即可。图中标出 22 份嵌套 <code>AGENTS.md</code> 作为组织示例。不同客户端对嵌套文件的发现与加载方式并不一样。在 <code>packages/web</code> 工作时，通常仍需遵守上层适用规则。是否只加载当前目录的额外细则，要以实际行为核对。</p><p data-paragraph="2-21">整理规则后一定要观察实际加载了什么。详细文档如果依然被自动全量塞入，拆成十个小文件也没有减少输入。</p></div><figure class="art">
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-2-4"><span class="subsection-number">2.4</span> <span class="subsection-title"><a href="https://code.claude.com/docs/zh-CN/large-codebases#layer-claude-md-files-by-directory" target="_blank" rel="noopener noreferrer">常驻规则只放每轮都要用的东西</a></span></h3><p class="section-intro">配置要按生命周期分层：越高频、越短越适合常驻；越低频、越重越必须按需触发。</p><p data-paragraph="2-16">大型仓库的根规则文件容易走向两个极端：要么覆盖所有子系统，令无关指令反复进入上下文；要么过于通用，无法指导具体任务。更合理的分工是根文件只放全局约定，子目录再补区域规则：</p><ul>
+<li><strong>根 <code>CLAUDE.md</code></strong>：只放全局约定，例如提交格式和生成代码的保护方式。</li>
+<li><strong>子目录 <code>CLAUDE.md</code></strong>：只补区域规则，例如 <code>order-service</code> 的 Spring Boot 配置、事务边界、MyBatis Mapper 写法和数据库迁移约束。Claude Code 会从工作目录及其父目录加载规则，并按需加载子目录文件，因此从 <code>order-service</code> 启动时看到的是根规则和订单服务区域规则，而不是 <code>order-web</code> 的约定。</li>
+<li><strong>路径范围规则</strong>：多个分散路径需要共用规则时，可集中到 <code>.claude/rules/</code>，用 <code>paths: glob</code> 指定匹配文件。</li>
+<li><strong>加载验证</strong>：用 <code>/context</code> 查看实际加载的 Memory files，必要时运行 <code>/doctor</code> 检查和修剪。如果详细文档仍被自动全量塞入，拆分文件本身并不会减少输入。</li>
+</ul><p data-paragraph="2-17"><a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener noreferrer">DeepSeek Harness</a> 的规则目录就是这一原则的示例：根 <code>AGENTS.md</code> 只留常驻规则、构建测试命令和仓库地图；架构原理、测试政策与发布流程放进 <code>docs</code> 和 <code>.agents</code>，需要时再由模型读取。它的价值不在于目录数量，而在于降低每次请求的固定输入。</p></div><figure class="art">
 <a aria-label="放大查看 图 2-4 常驻规则的分层与每轮重读开销" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-2-4-doodle83aa80e1a116a830.webp"><img alt="图 2-4 常驻规则的分层与每轮重读开销" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-2-4-doodle83aa80e1a116a830.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 2-4 常驻规则的分层与每轮重读开销<small>目录和数量按图中示例保留。嵌套规则的加载行为与上层规则继承需核对客户端实现。</small></figcaption>
 </figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-2-5"><span class="subsection-number">2.5</span> <span class="subsection-title">跨模块任务先要方案再放行</span></h3><p data-paragraph="2-22">涉及多个模块联动的复杂改动，一旦做到一半发现方向偏了，前面消耗的调用成本完全无法追回。先让模型花少量 Token 梳理调用链路，讲清楚准备改哪几个地方、打算怎么验证。方案合理再让它动手写代码。</p><p data-paragraph="2-23">如果只是修改实体字段注释，可以直接交给模型改动。只有涉及多服务 RPC、状态机联动这类复杂改动，才需要分步规划。不必对每一处微小改动都生成长篇方案，同样会消耗时间成本。执行过程一旦发现方向偏离：比如明确要求兼容旧接口，但模型准备大规模修改数据结构，要立刻叫停。等到整套代码全部写完再推翻，返工代价会高出一个量级。</p><p data-paragraph="2-24">方案阶段的投入，应与改动复杂度和返工风险相匹配。<strong>把接口、改动范围与验证路径提前讲清楚，能减少实现完成后才发现方向错误的损失。</strong></p></div><figure class="art">
@@ -439,7 +442,7 @@
 <a aria-label="放大查看 图 2-8 代码落盘后别再全量重贴（按交付方式约束输出）" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-2-8-doodle3a4b0068844ab685.webp"><img alt="图 2-8 代码落盘后别再全量重贴（按交付方式约束输出）" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-2-8-doodle3a4b0068844ab685.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 2-8 代码落盘后别再全量重贴（按交付方式约束输出）<small>已落盘的代码可通过 diff 查阅；历史的后续费用按实际保留与缓存情况计算。</small></figcaption>
 </figure></div></section>
-<section aria-labelledby="chapter-3" class="chapter" id="section-chapter-3"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">03</span><div class="chapter-heading"><div class="chapter-label">ROUTING · 模型选择</div><h2 id="chapter-3">第三章 模型路由策略</h2><p data-paragraph="3-0">按任务需要选择能力，再把失败尝试、验证时间与最终交付一起计入成本。</p><span class="chapter-stamp">本章关键词 · 总账为准</span></div></div><div class="chapter-intro reading"><p data-paragraph="3-1"><strong>用旗舰大模型写 Git 提交说明，或者照着现成逻辑补两行注释，是账单虚高最隐蔽的原因。</strong></p><p data-paragraph="3-2"><strong>模型路由，说白了就是把活派给能力、价格、推理深度都对得上的模型。</strong>改文案、写业务逻辑、排查并发死锁，对推理的要求完全不在一个量级。先稳住一个主力模型，再给明确的场景找替补，比天天换来换去更容易管好成本。</p></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-3-1"><span class="subsection-number">3.1</span> <span class="subsection-title">常见任务的模型分工矩阵</span></h3><p data-paragraph="3-3">先选定一个能稳定完成日常编码的主力模型。如果一个模型经常需要反复纠正或手动重写，这些返工成本必须合并计入评估。</p><p data-paragraph="3-4">主力模型定下来后，再把边界清晰的任务拆分出去。下面是一份分工参考。</p><div class="table-wrap">
+<section aria-labelledby="chapter-3" class="chapter" id="section-chapter-3"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">03</span><div class="chapter-heading"><div class="chapter-label">ROUTING · 模型选择</div><h2 id="chapter-3">第三章 模型路由策略</h2><p data-paragraph="3-0">按任务需要选择能力，再把失败尝试、验证时间与最终交付一起计入成本。</p><span class="chapter-stamp">本章关键词 · 总账为准</span></div></div><div class="chapter-intro reading"><p data-paragraph="3-1"><strong>用旗舰大模型写 Git 提交说明，或者照着现成逻辑补两行注释，是账单虚高最隐蔽的原因。模型路由，说白了就是把活派给能力、价格、推理深度都对得上的模型。</strong>改文案、写业务逻辑、排查并发死锁，对推理的要求完全不在一个量级。先稳住一个主力模型，再给明确的场景找替补，比天天换来换去更容易管好成本。</p></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-3-1"><span class="subsection-number">3.1</span> <span class="subsection-title">常见任务的模型分工矩阵</span></h3><p data-paragraph="3-3">先选定一个能稳定完成日常编码的主力模型。如果一个模型经常需要反复纠正或手动重写，这些返工成本必须合并计入评估。</p><p data-paragraph="3-4">主力模型定下来后，再把边界清晰的任务拆分出去。下面是一份分工参考。</p><div class="table-wrap">
 <table>
 <thead>
 <tr>
@@ -466,7 +469,7 @@
 </tr>
 </tbody>
 </table>
-</div><p data-paragraph="3-5">判断任务难度，看推理深度，和代码行数多少没有关系。修复一个高并发重复扣款的 Bug，最终改动可能只有两行配置。背后却需要把整套请求重试机制与网络并发竞争理清楚。只按改动行数派发模型，很容易低估这种工作的推理门槛。</p><p data-paragraph="3-6">翻几千行日志找报错、照着实体类写 20 个转换函数，本质上是纯苦力活，根本用不着高智商。<strong>别让博导去打印店排队</strong>：把大文件通读和机械样板代码丢给几分钱的轻量跑腿模型（Haiku/Flash），几十块钱的主力模型只负责最后审查提炼出的成果。遇到修改卡壳，先看报错日志给没给够；要是关键堆栈缺失，换再贵的模型也是瞎猜。只有输入材料完整、当前模型仍反复给出荒谬方案时，才考虑升级强模型。</p><p data-paragraph="3-7">面对边界模糊的常规任务，大可先用主力或轻量模型低成本试探；但涉及并发死锁、分布式状态机这类高风险骨架，从一开始就别省钱，直接上顶级模型。<strong>代码逻辑允许试错，但系统可用性不能拿来赌</strong>。</p></div><figure class="art">
+</div><p data-paragraph="3-5">判断任务难度，看推理深度，和代码行数多少没有关系。修复一个高并发重复扣款的 Bug，最终改动可能只有两行配置。背后却需要把整套请求重试机制与网络并发竞争理清楚。只按改动行数派发模型，很容易低估这种工作的推理门槛。</p><p data-paragraph="3-6">翻几千行日志找报错、照着实体类写 20 个转换函数，本质上是纯苦力活，根本用不着高智商。<strong>别让博导去打印店排队——不是他不会，是这活不值他的时薪。</strong>把大文件通读和机械样板代码丢给几分钱的轻量跑腿模型（Haiku/Flash），几十块钱的主力模型只负责最后审查提炼出的成果。遇到修改卡壳，先看报错日志给没给够；要是关键堆栈缺失，换再贵的模型也是瞎猜。只有输入材料完整、当前模型仍反复给出荒谬方案时，才考虑升级强模型。</p><p data-paragraph="3-7">面对边界模糊的常规任务，大可先用主力或轻量模型低成本试探；但涉及并发死锁、分布式状态机这类高风险骨架，从一开始就别省钱，直接上顶级模型。<strong>代码逻辑允许试错，但系统可用性不能拿来赌</strong>。</p></div><figure class="art">
 <a aria-label="放大查看 图 3-1 模型能力分档矩阵与中途升级决策树" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-3-1-doodle2f1d2d094c09df16.webp"><img alt="图 3-1 模型能力分档矩阵与中途升级决策树" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-3-1-doodle2f1d2d094c09df16.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 3-1 模型能力分档矩阵与中途升级决策树<small>模型名称为图示示例，平台可用性与价格需另行核对。“三次”不是固定盈亏线。</small></figcaption>
 </figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-3-2"><span class="subsection-number">3.2</span> <span class="subsection-title">推理档位按需调节</span></h3><p data-paragraph="3-8">不少模型分低/中/高推理档位。模型内部思考过程同样消耗 Token 计费，这笔用量和屏幕输出给你看到的文字字数，不是一回事。具体计费规则，以对应平台说明为准。</p><p data-paragraph="3-9">常规的代码修改从默认或较低档位起步即可。只有在需要梳理复杂的多层调用、或者权衡底层架构取舍时，才值得拉高推理档位。一个任务已经能够稳定完成，可以试着调低推理强度，看看返工次数有没有增加。对于原因不明的隐蔽死锁，则应当留足充裕的思考预算。</p><p data-paragraph="3-10">评估花费时，同时查看输出与推理用量的定义。有些平台把推理 Token 包含在输出统计内，此时不能再加一次。即便模型输出回复很短，也不代表本次调用成本更低。</p></div><figure class="art">
@@ -491,41 +494,41 @@
 <section aria-labelledby="chapter-4" class="chapter" id="section-chapter-4"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">04</span><div class="chapter-heading"><div class="chapter-label">CONTEXT · 上下文管理</div><h2 id="chapter-4">第四章 上下文压缩与工具装配</h2><p data-paragraph="4-0">从终端输出到模型回复，在数据进入上下文的位置减少冗余，并保留验证所需的信息。</p><span class="chapter-stamp">本章关键词 · 按需装配</span></div></div><div class="reading-pair"><div class="topic-copy"><p data-paragraph="4-1">除了用户输入，测试、构建、接口、检索工具也会吐出大量文本。几百条绿色通过、重复的日志行、长长的 JSON——这些东西一旦进了会话，就跟着往下游走，越堆越厚。这类高频噪音，适合交给工具自动收拾。</p><p data-paragraph="4-2">先看数据流过哪里，再决定用哪种处理。这里按命令执行、外部材料、请求发包和模型回复分成四个关口。它们各管各的问题，按需组合就行；用之前先想清楚：哪些错误、数值和原文回查路径必须保留。</p></div><figure class="art">
 <a aria-label="放大查看 图 4-1 数据流经四个关口与卡位工具管道全景" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-1-doodleaf7fc28902bbd56b.webp"><img alt="图 4-1 数据流经四个关口与卡位工具管道全景" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-1-doodleaf7fc28902bbd56b.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 4-1 数据流经四个关口与卡位工具管道全景<small>四类关口用于定位处理位置；实际数据路径可能交叉，按任务组合即可。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-1"><span class="subsection-number">4.1</span> <span class="subsection-title">第一关 命令执行端的终端过滤 (RTK)</span></h3><p data-paragraph="4-3">模型后台跑测试、构建、看仓库状态时，经常吐出几百行绿色通过和颜色控制码。这些东西一进会话，后面每轮都要再读一遍。这一关常用的是命令行过滤器，比如 RTK。</p><h4 id="sec-4-1-1">
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-1"><span class="subsection-number">4.1</span> <span class="subsection-title">第一关 命令执行端的终端过滤 (<a href="https://github.com/rtk-ai/rtk/blob/develop/README_zh.md" target="_blank" rel="noopener noreferrer">RTK</a>)</span></h3><p data-paragraph="4-3">模型后台跑测试、构建、看仓库状态时，经常吐出几百行绿色通过和颜色控制码。这些东西一进会话，后面每轮都可能再读一遍。这一关常用的是命令行过滤器，比如 RTK。</p><h4 id="sec-4-1-1">
 <span>4.1.1 声明式过滤：每条命令一份清单</span>
 </h4><p data-paragraph="4-4">测试、编译命令输出大量刷屏日志是很常见的噪音。工具 RTK 的思路不搞全局通用压缩，而是为每条命令配置一份 TOML 声明式过滤清单。先用正则识别当前执行的命令，再按清单精准执行：</p><ul>
 <li>清洗 ANSI 颜色控制码与空行；</li>
 <li>将成百上千行批量通过项折叠为一行摘要；</li>
 <li>完整保留失败用例的断言报错与退出状态码。</li>
-</ul><p data-paragraph="4-5">以 <code>mvn test</code> 为例：上百个通过用例的 <code>[INFO]</code> 行折叠为一行摘要，只保留失败断言、错误堆栈与退出状态。全部通过时，最终只返回 <code>BUILD SUCCESS</code>。仓库内置 60+ 份清单，覆盖 Maven、Gradle、Spring Boot 等常见命令。</p><h4 id="sec-4-1-2">
+</ul><p data-paragraph="4-5">以 <code>mvn test</code> 为例：上百个通过用例的 <code>[INFO]</code> 行折叠为一行摘要，只保留失败断言、错误堆栈与退出状态。全部通过时，可以只返回 <code>BUILD SUCCESS</code> 和通过数量。仓库内置多类命令清单，覆盖 Maven、Gradle、Spring Boot 等常见命令，具体数量与规则随版本变化。</p><h4 id="sec-4-1-2">
 <span>4.1.2 效果评估与防吞底线</span>
 </h4><p data-paragraph="4-6">过滤在本地运行，通过客户端的 PreToolUse 钩子接管终端命令；被包装的构建、下载命令本身仍可能访问网络。</p><p data-paragraph="4-7">示例：50 个测试用例，800 行输出压缩为 3 行摘要 + 失败详情，可以看到折叠重复通过项的效果。具体比例取决于命令与日志结构；需要分别测量原始文本、过滤后文本，以及模型最终收到的 Token。</p><p data-paragraph="4-8">终端过滤上手简单，随时可以关闭回退。<strong>验收配置必须核验：退出码、失败用例、关键堆栈，同时确认原始日志可以回溯。</strong>输出变短只是表象；过滤之后依旧可以定位问题，这套配置才算合格。</p></div><figure class="art">
 <a aria-label="放大查看 图 4-2 RTK 终端过滤前后体积对比与三层折叠机制" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-2-doodled00ef34b79b3477a.webp"><img alt="图 4-2 RTK 终端过滤前后体积对比与三层折叠机制" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-2-doodled00ef34b79b3477a.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 4-2 RTK 终端过滤前后体积对比与三层折叠机制<small>命令输出为机制示例；过滤器覆盖、规则数量与安装参数请核对所用版本，并验证失败路径。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-2"><span class="subsection-number">4.2</span> <span class="subsection-title">第二关 外部材料端的沙箱隔离 (Context Mode)</span></h3><p data-paragraph="4-9">生产环境日志、接口响应和大型数据对象动辄数万行。任务往往只需要核对其中的某一段报错或几个字段。如果把几十万字完整读进对话，窗口会瞬间被塞满，并在后续每轮交互中持续存在。处理这种庞大材料的办法，是把文件放在会话外面查。代表工具是 Context Mode。</p><h4 id="sec-4-2-1">
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-2"><span class="subsection-number">4.2</span> <span class="subsection-title">第二关 外部材料端的沙箱隔离 (<a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener noreferrer">Context Mode</a>)</span></h3><p data-paragraph="4-9">生产环境日志、接口响应和大型数据对象动辄数万行，但任务往往只需要一段报错或几个字段。Context Mode 的处理办法，是把文件放在会话外面查。</p><h4 id="sec-4-2-1">
 <span>4.2.1 双道闸门与沙箱机制</span>
-</h4><p data-paragraph="4-10">遇到几万行的大日志、大 JSON，不适合完整灌入会话。工具 Context Mode 的工作逻辑可以分成拦截、建索引、执行三部分理解：</p><ul>
-<li><strong>PreToolUse 拦截</strong>：如果模型准备用 <code>cat</code> / <code>Read</code> 读取超大日志文件，就直接拦住，引导改用检索查询；</li>
+</h4><p data-paragraph="4-10">它的工作逻辑可以分成拦截、建索引、执行三部分理解：</p><ul>
+<li><strong>PreToolUse 引导</strong>：如果模型准备用 <code>cat</code> / <code>Read</code> 读取超大日志文件，就引导改用检索查询，具体拦截能力因客户端和配置而异；</li>
 <li><strong>本地 FTS5 知识库</strong>：把大文件拆块存入 SQLite 本地索引，模型通过关键词，按需读取片段；</li>
-<li><strong>沙箱子进程</strong>：在隔离环境跑分析代码，只有提炼后的结论才传回主会话，原始大文件不会灌入对话。</li>
+<li><strong>沙箱子进程</strong>：在子进程跑分析代码，只有提炼后的结论才传回主会话，原始大文件不必整份灌入对话。</li>
 </ul><p data-paragraph="4-11">大日志的实际 Token 量需要测量，不能直接从行数推算。使用会话外分析时，原文留在本地文件或索引中，主会话只接收检索片段与结论。<strong>省下来的，是原文少进主上下文的那些次。</strong>还要检查其他读取入口是否绕过了这条路径。</p><h4 id="sec-4-2-2">
 <span>4.2.2 适用边界与开启纪律</span>
-</h4><p data-paragraph="4-12">日常以业务编码为主、很少碰大文件的人，务必按需开启、用完即关。最大风险是长期闲置常驻：即便不干活，工具接口定义每轮都会计入上下文，常驻开销甚至会超过它偶尔节省的 Token。只在重度日志分析与长 JSON 排查这类场景才启用。</p></div><figure class="art">
-<a aria-label="放大查看 图 4-3 大文件沙箱物理隔离与 FTS5 本地按需回查" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-3-doodle7a180a7edb489992.webp"><img alt="图 4-3 大文件沙箱物理隔离与 FTS5 本地按需回查" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-3-doodle7a180a7edb489992.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 4-3 大文件沙箱物理隔离与 FTS5 本地按需回查<small>FTS5、语言数量和分块阈值依版本与配置变化。原文回查路径与工具绕行需要一并检查。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-3"><span class="subsection-number">4.3</span> <span class="subsection-title">第三关 请求发包端的网关修剪 (Headroom)</span></h3><p data-paragraph="4-13">随着会话推进到几十轮，早期试错历史越积越厚，请求中保留的材料可能持续变多。客户端自带的压缩命令需要单独花钱重写且会破坏前缀缓存。在发包端卡位的是本地代理网关，代表是 Headroom。</p><h4 id="sec-4-3-1">
+</h4><p data-paragraph="4-12">日常以业务编码为主、很少碰大文件的人，可以按需开启，在任务或会话边界切换。常驻的工具接口定义可能持续占用上下文，抵消偶尔节省的 Token。重度日志分析与长 JSON 排查才是它的典型场景。这里的“沙箱”主要用于上下文隔离，不等于额外的系统安全防护。</p></div><figure class="art">
+<a aria-label="放大查看 图 4-3 大文件会话外分析与 FTS5 本地按需回查" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-3-doodle7a180a7edb489992.webp"><img alt="图 4-3 大文件会话外分析与 FTS5 本地按需回查" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-3-doodle7a180a7edb489992.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 4-3 大文件会话外分析与 FTS5 本地按需回查<small>FTS5、语言数量和分块阈值依版本与配置变化。原文回查路径与工具绕行需要一并检查。</small></figcaption>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-3"><span class="subsection-number">4.3</span> <span class="subsection-title">第三关 请求发包端的网关修剪 (<a href="https://docs.headroomlabs.ai/docs" target="_blank" rel="noopener noreferrer">Headroom</a>)</span></h3><p data-paragraph="4-13">客户端自带的压缩命令通常需要额外生成，也可能改变原有缓存前缀。另一条思路是在发包端通过本地代理网关处理，代表是 Headroom。</p><h4 id="sec-4-3-1">
 <span>4.3.1 三通道分流压缩管线</span>
-</h4><p data-paragraph="4-14">会话轮次变多，早期试错历史会越堆越厚。想要在发包阶段做压缩，可以用本地代理网关工具 Headroom，它部署在开发工具与模型接口中间，按不同内容做分流压缩：</p><ul>
+</h4><p data-paragraph="4-14">它部署在开发工具与模型接口中间，按不同内容做分流压缩：</p><ul>
 <li>日志：把 800 行重复日志，压缩成一套模板 + 变量表；</li>
-<li>diff：一份 200 行的 diff，如果只改动 3 行，只保留 <code>+/-</code> 实际变更行，剔除多余上下文、lockfile 和空行；</li>
+<li>diff：减少无关上下文、lockfile 和空行，但保留理解变更所需的代码与 <code>+/-</code> 实际变更行；</li>
 <li>JSON：针对大量重复字段做去重，过滤掉信息量很低的行。</li>
 </ul><p data-paragraph="4-15">每种变换都带臃肿度评分，不够臃肿的原样放过，不做无谓加工。</p><h4 id="sec-4-3-2">
 <span>4.3.2 CCR 本地可逆缓存</span>
-</h4><p data-paragraph="4-16">Headroom 敢于激进压缩的核心保障是 CCR（可逆压缩）。被压掉的原文完整缓存在本地，模型需要全文时，可凭句柄通过 <code>headroom_retrieve</code> 无损取回。</p><p data-paragraph="4-17">使用该工具需要在本地运行代理，将开发工具的模型接口指向代理，由代理完成转换再转发给目标模型服务。文档里“一万 Token 压到一千二”只是局部日志场景下的压缩极值。接入前务必核对工具版本、鉴权配置，确认原文回取功能稳定可用。</p></div><figure class="art">
+</h4><p data-paragraph="4-16">Headroom 的 CCR（可逆压缩）为压缩提供了回退路径。被压掉的原文完整缓存在本地，模型需要全文时，可凭句柄通过 <code>headroom_retrieve</code> 按配置取回。</p><p data-paragraph="4-17">使用该工具需要在本地运行代理，将开发工具的模型接口指向代理，由代理完成转换再转发给目标模型服务。文档里“一万 Token 压到一千二”只是局部日志场景下的压缩极值。接入前务必核对工具版本、鉴权配置，确认原文回取功能稳定可用。</p></div><figure class="art">
 <a aria-label="放大查看 图 4-4 Headroom 发包前压缩网关与可逆取回" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-4-doodle702b0d63c38f6f65.webp"><img alt="图 4-4 Headroom 发包前压缩网关与可逆取回" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-4-doodle702b0d63c38f6f65.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 4-4 Headroom 发包前压缩网关与可逆取回<small>原文可取回不代表压缩后的内容本身无损；数值、错误和代码上下文需要验证。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-4"><span class="subsection-number">4.4</span> <span class="subsection-title">第四关 模型回复端的输出规约 (Caveman &amp; Ponytail)</span></h3><p data-paragraph="4-18">前三关都是在数据流动的路径上加外部滤网。第四关不一样，它直接约束模型自身的输出行为，从源头上减少废话生成。</p><p data-paragraph="4-19"><strong>模型输出回复是按输出 Token 计费，单价一般比输入更高</strong>。模型返回的全部内容，还会存入会话历史，下一轮请求继续当作输入重复扣费。社区曾流行一种民间偏方：在提示词里声称“我有严重多动症（ADHD），请只说核心代码、严禁废话”。真机对账表明，模型回复在总账单中往往只占很小比例；盲目逼它闭嘴不仅省不下几毛钱，反而把模型的思维链自检和边界推导直接阉割掉了。代码漏掉一个判空，后续返工排错的代价高出百倍。压输出有两个方向，别搞混了：一个是压缩表达风格，一个是压制过度设计。前者砍输出废话，后者砍架构返工。</p><h4 id="sec-4-4-1">
-<span>4.4.1 表达风格规约：Caveman（压输出字数）</span>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-4-4"><span class="subsection-number">4.4</span> <span class="subsection-title">第四关 模型回复端的输出规约 (<a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">Caveman</a> &amp; <a href="https://github.com/DietrichGebert/ponytail/blob/main/i18n/README.zh-CN.md#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86" target="_blank" rel="noopener noreferrer">Ponytail</a>)</span></h3><p data-paragraph="4-18">前三关都是在数据流动的路径上加外部滤网。第四关不一样，它直接约束模型自身的输出行为，从源头上减少废话生成。</p><p data-paragraph="4-19"><strong>模型输出回复是按输出 Token 计费，单价一般比输入更高</strong>。模型返回的内容还可能进入会话历史，后续请求继续作为输入处理。压输出有两个方向，别搞混了：一个是压缩表达风格，一个是压制过度设计。前者砍输出废话，后者砍架构返工。简洁回复不等于减少思考，必要的假设、风险和验证结果仍要保留。</p><h4 id="sec-4-4-1">
+<span>4.4.1 表达风格规约：<a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener noreferrer">Caveman</a>（压输出字数）</span>
 </h4><p data-paragraph="4-20">模型输出啰嗦、铺垫寒暄太多，可使用输出风格规约工具 Caveman，核心目标是让模型少说废话。口号是 compress STYLE, never RIGOR（只压缩风格，绝不压缩严谨度）。</p><p data-paragraph="4-21">它在 Claude Code 里通过原生 Output Style 生效，核心要求是：</p><ul>
 <li>结论先行：前置答案，解释放后；</li>
 <li>删除冗余：剔除冠词、寒暄、铺垫、对冲词与结尾复述；</li>
@@ -536,14 +539,14 @@
 <a aria-label="放大查看 图 4-5 Caveman 输出风格规约前后对比" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-5-doodle591d5f483114e409.webp"><img alt="图 4-5 Caveman 输出风格规约前后对比" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-5-doodle591d5f483114e409.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 4-5 Caveman 输出风格规约前后对比<small>40% 为工具材料中的输出侧案例，实际收益还应计入追问、任务质量与规约自身开销。</small></figcaption>
 </figure></div><div class="reading-pair"><div class="topic-copy"><h4 id="sec-4-4-2">
-<span>4.4.2 设计原则规约：Ponytail（压方案复杂度）</span>
+<span>4.4.2 设计原则规约：<a href="https://github.com/DietrichGebert/ponytail/blob/main/i18n/README.zh-CN.md#%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86" target="_blank" rel="noopener noreferrer">Ponytail</a>（压方案复杂度）</span>
 </h4><p data-paragraph="4-23">模型容易过度设计、写一堆不必要代码，可用规约工具 Ponytail，核心是让模型像“房间里最懒的资深架构师”一样思考，拒绝过度设计。口号是 think expensive, write cheap。</p><p data-paragraph="4-24">它通过一条 7 层决策阶梯严格约束模型做事的深度：</p><ol>
 <li>这东西真的需要存在吗？ 臆想需求直接不做 (YAGNI)；</li>
 <li>仓库里已经有现成的吗？ 先找再写，严禁重复造轮子；</li>
 <li>标准库能解决吗？ 优先使用标准库；</li>
 <li>平台原生特性能覆盖吗？ 原生特性优于引入类库；</li>
 <li>已装依赖能搞定吗？ 绝不为几行代码增加新依赖；</li>
-<li>能一行写完吗？ 绝不写五十行；</li>
+<li>能否用清晰、可维护的最少代码完成？不为了短而牺牲可读性；</li>
 <li>以上都不行，才编写能工作的最少必要代码。</li>
 </ol><p data-paragraph="4-25">一条铁律：<strong>修 Bug 修根因，不修表面症状</strong>。在共享函数里加一道防线，胜过在每个调用点各打一块补丁。</p></div><figure class="art">
 <a aria-label="放大查看 图 4-6 Ponytail 设计原则规约与过度设计拦截" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-6-doodle9c502806deae7d37.webp"><img alt="图 4-6 Ponytail 设计原则规约与过度设计拦截" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-6-doodle9c502806deae7d37.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
@@ -565,69 +568,126 @@
 <td>命令执行端</td>
 <td>编译与测试大量刷屏</td>
 <td>命令行过滤器 (RTK)</td>
-<td>真实退出状态与报错堆栈必须原样透传</td>
+<td>真实退出状态与关键报错必须保留</td>
 </tr>
 <tr>
 <td>外部材料端</td>
 <td>上万行日志灌满上下文</td>
 <td>本地沙箱与知识库 (Context Mode)</td>
-<td>保持阻断，重度排查任务才开启</td>
+<td>按需开启，保留原文回查路径</td>
 </tr>
 <tr>
 <td>请求发包端</td>
 <td>请求体松散与长历史膨胀</td>
 <td>本地代理分流压缩 (Headroom)</td>
-<td>CCR 本地可逆，数值精度不可破坏</td>
+<td>验证关键内容，并确认原文可取回</td>
 </tr>
 <tr>
 <td>模型回复端</td>
 <td>寒暄客套与过度设计</td>
 <td>格式与设计规约 (Caveman / Ponytail)</td>
-<td>保留关键推导，复杂排障主动关闭</td>
+<td>保留必要说明，复杂排障不过度压缩</td>
 </tr>
 </tbody>
 </table>
 </div><h4 id="sec-4-5-1">
 <span>4.5.1 推荐装配方案</span>
-</h4><p data-paragraph="4-29">日常开发（极简两件套）：命令执行端挂 RTK 拦截控制台噪音，回复端配三行输出规约直奔主题。这套组合不碰复杂链路，以极小代价解决日常最频繁的两类噪音。</p><p data-paragraph="4-30">重度排障（按需启用）：生产日志排查、大型数据对象分析时，挂载 Context Mode 沙箱。任务完成后立即关闭，不让额外工具定义常驻底噪。</p><h4 id="sec-4-5-2">4.5.2 两项验收要求</h4><p data-paragraph="4-31">任何工具引入都必须经受两项客观要求的检验：</p><ul>
-<li>严格同任务对照：选一个有明确验收标准的功能修改，在相同代码起点下用不同配置各跑一次，对比真实账单；</li>
+</h4><p data-paragraph="4-29">日常开发（按需组合）：终端噪音明显时用 RTK，回复啰嗦时试 Caveman，实现容易过度复杂时试 Ponytail。先处理自己最常见的一类问题，不必为了凑齐四个关口全部安装。</p><p data-paragraph="4-30">重度排障（按需启用）：生产日志排查、大型数据对象分析时，挂载 Context Mode；需要在代理层统一压缩并保留原文回取能力时，再评估 Headroom。任务结束后回到轻量配置，减少额外工具定义的常驻开销。</p><h4 id="sec-4-5-2">4.5.2 两项验收要求</h4><p data-paragraph="4-31">任何工具引入都必须经受两项客观要求的检验：</p><ul>
+<li><strong>严格同任务对照</strong>：选一个有明确验收标准的功能修改，在相同代码起点下用不同配置对照，确认工具实际生效；有条件时用同类任务重复比较，避免被单次波动误导；</li>
 <li>核对总费用与完成质量：分别记录字符、Token 与金额；任务通过同等验收，才能比较成本。</li>
-</ul><p data-paragraph="4-32">公开案例中的系统级优化，与单个工具输出的压缩率，往往采用不同统计范围。7%～15% 和 80%～90% 这样的数字，只有连同来源、分母、任务和配置才有比较意义。<strong>局部改善对总费用的影响，需要结合它原本占多少费用，以及是否产生了额外调用来计算。</strong></p></div><figure class="art">
-<a aria-label="放大查看 图 4-7 工具装配策略：极简两件套与两条验收军规" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-4-7-doodle51e8373d818fab19.webp"><img alt="图 4-7 工具装配策略：极简两件套与两条验收军规" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-4-7-doodle51e8373d818fab19.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 4-7 工具装配策略：极简两件套与两条验收军规<small>局部压缩率与总费用降幅要分开记录；以完整任务的质量、金额与时间评估。</small></figcaption>
+</ul><p data-paragraph="4-32">公开案例中的系统级优化，与单个工具输出的压缩率，往往采用不同统计范围。无论是局部文本降幅还是完整任务降幅，只有连同来源、分母、任务和配置才有比较意义。<strong>局部改善对总费用的影响，需要结合它原本占多少费用，以及是否产生了额外调用来计算。</strong></p></div><figure class="art">
+<a aria-label="放大查看 图 4-7 按需组合与两项验收" class="art-button" href="https://origin.picgo.net/2026/10/27/fig-4-7-doodle-v2c8f9516930bdebf2.jpg"><img alt="图 4-7 按需组合与两项验收" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/27/fig-4-7-doodle-v2c8f9516930bdebf2.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 4-7 按需组合与两项验收<small>先处理最常见的问题，再用同任务对照核对总费用与完成质量。</small></figcaption>
 </figure></div></section>
-<section aria-labelledby="chapter-5" class="chapter" id="section-chapter-5"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">05</span><div class="chapter-heading"><div class="chapter-label">RETRIEVAL · 代码检索</div><h2 id="chapter-5">第五章 代码检索与索引选型</h2><p data-paragraph="5-0">从路径搜索、符号定位到语义索引，依据真实的定位困难选择工具。</p><span class="chapter-stamp">本章关键词 · 代码即索引</span></div></div><div class="chapter-intro reading"><p data-paragraph="5-1">如果模型为找一个调用方读了 27 个文件，大概率是定位路径太长了。文件读取次数不等于模型调用次数：批量读取、返回大小、历史保留策略，一起决定了后续开销。先定位符号和依赖，再读必要的实现，通常更容易把范围控住。</p><p data-paragraph="5-2">找代码这件事，真正该省的是无效候选和来回瞎摸。证据要留够，函数、调用方、相关测试都得确认，不然省了读取、多了返工，反而更贵。这一章讲的是：怎么选最合适的定位方式。</p></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-1"><span class="subsection-number">5.1</span> <span class="subsection-title">先判断项目是否需要额外检索工具</span></h3><p data-paragraph="5-3"><strong>代码行数仅作参考线索，不能单独用来判断检索工具是否值得引入。</strong>目录清晰、入口已知的小项目，直接使用编辑器自带的搜索能力即可，盲目引入复杂的检索工具反而大概率亏钱。</p><p data-paragraph="5-4">检索工具本身也有成本：工具说明、索引构建、更新维护、查询开销。客户端如果支持延迟加载，固定上下文成本会低一些。结构简单的项目，节省的探索时间可能盖不过这些成本。定位确实困难的项目，才值得做对照试验。</p><p data-paragraph="5-5">可以用两个信号判断是否值得试验：</p><ul>
+<section aria-labelledby="chapter-5" class="chapter" id="section-chapter-5"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">05</span><div class="chapter-heading"><div class="chapter-label">RETRIEVAL · 代码检索</div><h2 id="chapter-5">第五章 代码检索与索引选型</h2><p data-paragraph="5-0">从精准路径、符号定位到代码图谱与语义索引，依据真实的定位困难选择工具。</p><span class="chapter-stamp">本章关键词 · 代码即索引</span></div></div><div class="chapter-intro reading"><p data-paragraph="5-1">如果模型为找一个调用方读了 27 个文件，大概率是定位路径太长了。文件读取次数不等于模型调用次数：批量读取、返回大小、历史保留策略，一起决定了后续开销。先定位符号和依赖，再读必要的实现，通常更容易把范围控住。</p><p data-paragraph="5-2">找代码真正该省的是无效候选和来回瞎摸。证据要留够，函数、调用方、相关测试都得确认，不然省了读取、多了返工，反而更贵。</p></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-1"><span class="subsection-number">5.1</span> <span class="subsection-title">先判断项目是否需要额外检索工具</span></h3><p data-paragraph="5-3"><strong>代码行数仅作参考线索，不能单独用来判断检索工具是否值得引入。</strong>目录清晰、入口已知的小项目，直接使用编辑器自带的搜索能力即可，盲目引入复杂的检索工具反而大概率亏钱。</p><p data-paragraph="5-4">检索工具本身也有成本：工具说明、索引构建、更新维护、查询开销。客户端如果支持延迟加载，固定上下文成本会低一些。结构简单的项目，节省的探索时间可能盖不过这些成本。定位确实困难的项目，才值得做对照试验。</p><p data-paragraph="5-5">可以用两个信号判断是否值得试验：</p><ul>
 <li><strong>规模与结构信号</strong>：例如十万行以上、模块关系复杂的项目，需要花较多时间理解跨模块关系；</li>
 <li><strong>定位行为信号</strong>：例如同一排查任务读了十个以上文件仍未找到核心路径，值得检查检索方式。</li>
-</ul><p data-paragraph="5-6">例如，十万行项目或一次排查读了十个以上文件，可以提醒你检查定位效率；它们仍只是线索。先提供已知入口与函数名，再记录工具引入前后的调用量、准确性和耗时，判断收益。</p></div><figure class="art">
-<a aria-label="放大查看 图 5-1 两万行以内装检索工具大概率亏钱" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-5-1-doodlec95f849b6b3715c0.webp"><img alt="图 5-1 两万行以内装检索工具大概率亏钱" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-5-1-doodlec95f849b6b3715c0.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 5-1 两万行以内装检索工具大概率亏钱<small>两万行、十万行和十次读取仅是观察线索，不能单独判定工具盈亏。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-2"><span class="subsection-number">5.2</span> <span class="subsection-title">找代码的三种姿势</span></h3><p data-paragraph="5-7">开发者在代码库里找东西，本质上只有三种需求，对应三种完全不同的技术路线。选错了路线，花了钱还办不好事。</p><h4 id="sec-5-2-1">
-<span>5.2.1 精确找人：语言服务协议 (LSP)</span>
-</h4><p data-paragraph="5-8">如果你已经知道函数名称，需要定位定义与全部调用处，优先用 LSP（语言服务协议），这是该场景最高效的手段。</p><p data-paragraph="5-9">它就像 IDE 里的“跳转到定义”和“查找所有用法”。查找 <code>OrderService.createOrder()</code> 时，LSP 直接把模型带到定义与实现类的精准行号。不需要全局 grep，也就不会把 DTO、测试 Mock 和日志里的同名词卷入上下文。</p><p data-paragraph="5-10">函数定义、类型和引用关系，优先尝试可靠的语言服务。文本搜索则适合字符串、配置键、日志与语言服务未覆盖的文件。两者可以配合使用：缩小候选范围，再读取源码验证。</p></div><figure class="art">
-<a aria-label="放大查看 图 5-2a LSP 符号直达 vs 全仓暴力 Grep" class="art-button" href="https://origin.picgo.net/2026/10/09/fig-5-2a-doodle42f10c7fa4ecee0c.webp"><img alt="图 5-2a LSP 符号直达 vs 全仓暴力 Grep" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/09/fig-5-2a-doodle42f10c7fa4ecee0c.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+</ul><p data-paragraph="5-6">代码图谱工具同样遵循这个原则。目录清晰、入口已知的项目，先用精准路径和语言服务，图谱的边际收益往往盖不过它的工具定义与索引成本。</p></div><figure class="art">
+<a aria-label="放大查看 图 5-1 先判断：这个项目需要检索工具吗" class="art-button" href="https://origin.picgo.net/2026/10/27/fig-5-1-doodle-v2986c5cde34185755.jpg"><img alt="图 5-1 先判断：这个项目需要检索工具吗" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/27/fig-5-1-doodle-v2986c5cde34185755.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 5-1 先判断：这个项目需要检索工具吗<small>规模与定位行为只是线索；先给入口和函数名，再判断要不要装工具。</small></figcaption>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-2"><span class="subsection-number">5.2</span> <span class="subsection-title"><a href="https://code.claude.com/docs/zh-CN/large-codebases#reduce-file-reads-with-code-intelligence" target="_blank" rel="noopener noreferrer">先用最轻的手段：精准路径 + 语言服务</a></span></h3><p data-paragraph="5-7">没有 LSP 这类结构化工具时，Claude Code 找代码主要靠文本搜索：它知道哪些文件包含这个名字，却未必知道哪个是真正的定义、谁调用了谁、又是在哪里导入的。于是搜索 <code>User</code> 可能同时返回类定义、变量、注释和测试数据，模型还要逐个读取，才能排除候选。</p><p data-paragraph="5-8">LSP（语言服务协议）改变的是这种方式。你可以把它理解成编辑器背后的“代码导航员”：IDE 里的跳转到定义、查找所有用法和查看变量类型，背后往往就是它。语言服务器真正理解某门语言，能直接回答代码结构问题。比如查找 <code>OrderService.createOrder()</code>，它能返回实现文件和行号，还能找出调用点、类型签名和接口实现，减少无效搜索和文件读取。</p><p data-paragraph="5-9">以 Claude Code 的终端会话为例，可以按下面三步开启：</p><ol>
+<li><strong>先安装语言服务器</strong>。插件只负责接入，语言服务器需要单独安装。以 Java 为例，安装 <code>jdtls</code> 后用 <code>which jdtls</code> 确认它在 <code>PATH</code> 中：</li>
+</ol><div class="template"><pre><code>brew install jdtls
+which jdtls</code></pre></div><ol start="2">
+<li><strong>在 Claude Code 中安装对应插件</strong>：</li>
+</ol><div class="template"><pre><code>/plugin install jdtls-lsp@claude-plugins-official</code></pre></div><ol start="3">
+<li><strong>验证服务器是否启动</strong>。首次编辑对应语言的文件时，语言服务器会启动。可以让 Claude 先引入一个小类型错误再修复，如果出现 <code>Found N new diagnostic issues in M files</code> 诊断行，说明已经生效；如果没有，就到 <code>/plugin</code> 的错误选项卡检查是否提示 <code>Executable not found in $PATH</code>。</li>
+</ol><p data-paragraph="5-10">文本搜索仍然有用，适合配置键、日志和语言服务未覆盖的文件。两者配合：先用 LSP 精准定位，再读取必要源码。关键接口、调用方和相关测试也不能省，LSP 不能替代项目测试。</p></div><figure class="art">
+<a aria-label="放大查看 图 5-2a LSP 符号直达 vs 全仓暴力 Grep" class="art-button" href="https://origin.picgo.net/2026/10/27/fig-5-2a-doodle-v22a7af31fde5fb750.jpg"><img alt="图 5-2a LSP 符号直达 vs 全仓暴力 Grep" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/27/fig-5-2a-doodle-v22a7af31fde5fb750.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 5-2a LSP 符号直达 vs 全仓暴力 Grep<small>借助 AST 符号秒级直达定义与所有引用，避免把 DTO、Mock 和日志全量卷入上下文。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h4 id="sec-5-2-2">
-<span>5.2.2 追溯波及面：代码图谱 (Code Graph)</span>
-</h4><p data-paragraph="5-11">你准备改底层一个模块，想知道上面哪些业务会受影响。这时候你要的不是某一个点，而是一张依赖关系图。代码图谱把整个项目解析成一张模块调用网络，就像顺着电路管网找哪些房间会因为总闸改动而跳闸。</p><p data-paragraph="5-12">代码图谱好不好用，取决于三点：语言支持程度、索引是否是最新、依赖关系解析能力，另外还要看项目的调用透明度：</p><ul>
-<li><strong>高透明度工程</strong>：标准三层架构（Controller → Service → Mapper），包路径与接口实现一一对应，目录本身就是活索引，图谱带来的额外收益有限；</li>
-<li><strong>低透明度工程</strong>：深度依赖事件发布、AOP 动态代理、反射 RPC 等动态调用的系统，调用链被动态解耦切断，文本搜索找不出谁发布事件、谁消费消息。这类系统才是图谱的主战场，但必须先核对图谱对动态调用的解析覆盖。</li>
-</ul><p data-paragraph="5-13">公开的 CodeGraph 基准中，Java/OkHttp 与 Rust/Tokio 的成本降幅分别约为 2% 和 82%。差距主要来自仓库的调用透明度，而非语言本身。<strong>动态调用越多的系统，图谱潜在收益越大，也越需要核对图谱解析是否完整。</strong></p></div><figure class=art>
-<a aria-label="放大查看 图 5-2b 代码图谱真实收益方差与项目规模分水岭" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-5-2-doodle859f0cba8959c75f.webp"><img alt="图 5-2b 代码图谱真实收益方差与项目规模分水岭" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-5-2-doodle859f0cba8959c75f.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 5-2b 代码图谱真实收益方差与项目规模分水岭<small>相关参考数字来自不同语言的仓库基准，不能证明图示两类 Java 架构的降幅。动态调用覆盖需验证。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h4 id="sec-5-2-3">
-<span>5.2.3 模糊意图：语义向量索引 (Embeddings)</span>
-</h4><p data-paragraph="5-14">你记不清函数名，也不知道在哪个模块，只大概知道有个功能是做某件事的。这是最模糊的一类需求，对应的是语义向量索引。它把代码按含义切片存起来，你用自然语言描述你想找的东西，它把最相关的代码片段捞出来给你。</p><p data-paragraph="5-15">使用语义索引时，先明确索引范围与数据处理位置：</p><ul>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-3"><span class="subsection-number">5.3</span> <span class="subsection-title">重点：代码图谱怎么选、怎么用</span></h3><p data-paragraph="5-11">你准备改底层一个模块，想知道上面哪些业务会受影响。这时候你要的不是某一个点，而是一张依赖关系图。代码图谱把项目解析成符号（函数、类）和边（调用、导入、继承），让 Agent 直接查询而不是逐个文件 grep。</p><p data-paragraph="5-12"><strong>图谱真正省的是工具调用次数和无效读取，不是魔法。</strong>在动态调用多、调用链长的仓库上收益明显；在结构清晰、入口已知的标准三层架构里，收益可能接近零。</p></div><figure class="art">
+<a aria-label="放大查看 图 5-2b 代码图谱：把代码变成关系网" class="art-button" href="https://origin.picgo.net/2026/10/28/fig-5-2b-doodle-v25fa64ab2147daf89.jpg"><img alt="图 5-2b 代码图谱：把代码变成关系网" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/28/fig-5-2b-doodle-v25fa64ab2147daf89.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 5-2b 代码图谱：把代码变成关系网<small>节点是函数和类，边是调用、导入和继承；先看影响范围，再读关键源码。</small></figcaption>
+</figure></div><div class="reading-pair"><div class="topic-copy"><p data-paragraph="5-13">公开基准中，不同仓库的成本降幅可以从接近 0% 到 80% 以上，差距主要来自仓库的调用透明度，而非语言本身。社区独立实测也显示，三个工具在同一批真实问题上的准确率和返回内容差异很大，官方数字不能直接当决策依据。注意三家的基准分母不同：记忆召回、代码覆盖率、成本降幅不能拼在一起比较。</p><p data-paragraph="5-14">目前主流的三个本地工具，本质上是在回答三种不同的问题：</p><div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th scope="col">工具</th>
+<th scope="col">主要回答的问题</th>
+<th scope="col">返回内容</th>
+<th scope="col">新鲜度</th>
+<th scope="col">许可证</th>
+<th scope="col">适合场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://colbymchenry.github.io/codegraph/getting-started/introduction/" target="_blank" rel="noopener noreferrer">CodeGraph</a></td>
+<td>把相关代码和调用关系直接给我</td>
+<td>源码 + 路径 + blast radius（一次调用）</td>
+<td>OS watcher 自动增量</td>
+<td>MIT</td>
+<td>日常编码，想少翻文件、少调工具</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Graphify-Labs/graphify" target="_blank" rel="noopener noreferrer">Graphify</a></td>
+<td>代码 + 文档/设计稿的地图</td>
+<td>关系与概念（EXTRACTED/INFERRED 边）</td>
+<td>update / watch / git hook（watch 需另装）</td>
+<td>Apache-2.0</td>
+<td>架构理由在文档、PDF、ADR 里</td>
+</tr>
+<tr>
+<td><a href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noopener noreferrer">GitNexus</a></td>
+<td>改这里会炸哪里、执行流怎么走</td>
+<td>影响分析、流程、聚类</td>
+<td>需 analyze / watch</td>
+<td>PolyForm Noncommercial</td>
+<td>大项目改动风险分析（商用需授权）</td>
+</tr>
+</tbody>
+</table>
+</div><p data-paragraph="5-15">几个实际差异：</p><ul>
+<li>CodeGraph 默认几乎只暴露一个 <code>codegraph_explore</code> 工具，一次返回带行号源码和调用路径，Agent 可以少再读文件；另外两家更多返回关系，Agent 往往还需要自己打开文件。</li>
+<li>Graphify 给每条边打 EXTRACTED / INFERRED 两种标签，方便区分“代码里明确写着的”和“推出来的”，也能把文档、PDF 一起纳入。</li>
+<li>CodeGraph 靠文件监听自动更新；另外两家更依赖手动更新或 git hook。</li>
+<li>GitNexus 是 PolyForm Noncommercial，公司商用需要额外授权。</li>
+</ul><p data-paragraph="5-16"><strong>选择建议：</strong></p><ul>
+<li>想让 Claude Code / Codex 少做 grep 和 Read，优先试 CodeGraph（默认一个 <code>codegraph_explore</code> 工具，返回带行号源码）。</li>
+<li>代码之外还有大量文档、设计稿、SQL schema 需要一起查，选 Graphify；但文档语义抽取要接 LLM 后端，跨仓与常驻更新在付费 Cloud。</li>
+<li>最怕改一处牵连一片，需要扎实的 impact 分析，选 GitNexus（先确认许可证）。</li>
+<li>项目不大、命名清楚、LSP + 精准路径就够：先别装。三个工具都有索引构建与工具定义成本，小项目容易亏。</li>
+</ul><p data-paragraph="5-17"><strong>动态调用是关键分水岭。</strong>标准 Controller → Service → Mapper 的高透明度项目，目录本身就是索引，图谱收益有限。重度依赖事件、AOP、反射、RPC 的低透明度系统，文本搜索跟断调用链，才是图谱的主战场——但必须先核对它能否解析这些动态关系，否则会给出虚假安全感。</p><p data-paragraph="5-18">引入前做对照：固定 5–10 个真实排查问题，记录引入前后的工具调用次数、Token 和定位准确率。<strong>算账要把四笔都算上：建索引、工具 schema 常驻、单次返回体积、过期维护。</strong>两周没有净收益就卸掉，别让工具定义一直常驻。</p></div><figure class=art>
+<a aria-label="放大查看 图 5-2c 三种代码图谱，分别是什么" class="art-button" href="https://origin.picgo.net/2026/10/28/fig-5-2c-doodle-v20761f6b94724e1b2.jpg"><img alt="图 5-2c 三种代码图谱，分别是什么" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/28/fig-5-2c-doodle-v20761f6b94724e1b2.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 5-2c 三种代码图谱，分别是什么<small>CodeGraph 返回相关源码、调用路径与影响范围；Graphify 连接代码和多种资料并标注关系来源；GitNexus 查询符号、执行流和改动影响。</small></figcaption>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-4"><span class="subsection-number">5.4</span> <span class="subsection-title">模糊意图：语义向量索引</span></h3><p data-paragraph="5-19">你记不清函数名，也不知道在哪个模块，只大概知道有个功能是做某件事的。这是最模糊的一类需求，对应的是语义向量索引。它把代码按含义切片后做嵌入检索，你用自然语言描述需求，它返回最相关的代码片段。</p><p data-paragraph="5-20">很多 AI 编程工具已经内置了类似能力：Cursor 早期以 semantic codebase search 为特色，Trae 也支持 codebase indexing，建好索引后可以用 <code>#Workspace</code> / <code>#Folder</code> 让模型基于项目级上下文回答。这些内置功能适合“记不清函数名、只记得大概功能”的模糊查找。</p><p data-paragraph="5-21">使用语义索引时，先明确索引范围与数据处理位置：</p><ul>
 <li><strong>排除第三方依赖</strong>：给依赖库建向量索引，等于花钱请人把一整本电话簿背下来，毫无用处；</li>
 <li><strong>确认数据处理位置</strong>：语义索引可能涉及本地或远端嵌入服务。根据项目的数据要求选择方案，确认代码片段的发送范围与存储位置。</li>
 </ul></div><figure class="art">
-<a aria-label="放大查看 图 5-2c 向量语义切片召回与依赖排除边界" class="art-button" href="https://origin.picgo.net/2026/10/09/fig-5-2c-doodleb1169aef5f5e705c.webp"><img alt="图 5-2c 向量语义切片召回与依赖排除边界" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/09/fig-5-2c-doodleb1169aef5f5e705c.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 5-2c 向量语义切片召回与依赖排除边界<small>按含义切片计算 Embedding，自然语言直接召回相关片段；严禁给第三方依赖建向量索引。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-3"><span class="subsection-number">5.3</span> <span class="subsection-title">选工具的一条总原则</span></h3><p data-paragraph="5-16">判断要不要引入一个新的检索工具，不要看它宣称的命中率，算一笔账就够了。选工具的核心原则，就是对照实验说了算。</p><p data-paragraph="5-17">选一组熟悉且有明确验收标准的排查任务。固定代码起点，记录不用新工具时的用量、读取范围和时间。再使用工具做对照，计入建索引、查询和后续维护成本。总开销没降，就去查任务类型、索引质量和配置，别拿仓库大小说事。</p><p data-paragraph="5-18">阅读基准测试数据，要警惕<strong>多手转述</strong>陷阱。很多文章复制粘贴一模一样的优化比例，看上去像是多方验证有效，实际全部摘抄自项目官方文档，缺少可复现的独立实测记录。碰到这类数据优先找到原始出处，不要误以为经过多方验证。
-
-说到底，检索工具是用来弥补代码组织不够清晰的。越规范的代码库，目录、命名和调用关系本身就越容易找，越不需要复杂的检索工具。<strong>代码自己就是最好的索引</strong>。</p></div><figure class="art">
-<a aria-label="放大查看 图 5-3 选工具的一条总原则与多手转述陷阱" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-5-3-doodle5d77ab6fa6f02ddd.webp"><img alt="图 5-3 选工具的一条总原则与多手转述陷阱" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-5-3-doodle5d77ab6fa6f02ddd.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 5-3 选工具的一条总原则与多手转述陷阱</figcaption>
+<a aria-label="放大查看 图 5-2d 语义索引：召回什么，不该索引什么" class="art-button" href="https://origin.picgo.net/2026/10/27/fig-5-2c-doodle-v259b0811a066f6b68.jpg"><img alt="图 5-2d 语义索引：召回什么，不该索引什么" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/27/fig-5-2c-doodle-v259b0811a066f6b68.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 5-2d 语义索引：召回什么，不该索引什么<small>按含义切片计算 Embedding，自然语言直接召回相关片段；严禁给第三方依赖建向量索引。</small></figcaption>
+</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-5-5"><span class="subsection-number">5.5</span> <span class="subsection-title">选工具的一条总原则</span></h3><p data-paragraph="5-16">判断要不要引入一个新的检索工具，不要看它宣称的命中率，算一笔账就够了：选一组熟悉且有验收标准的排查任务，固定代码起点，对比引入前后的调用次数、Token 和定位准确率。总开销没降，问题多半在任务类型、索引质量或配置，不在仓库大小。</p><p data-paragraph="5-17">说到底，检索工具是用来弥补代码组织不够清晰的。越规范的代码库，目录、命名和调用关系本身就越容易找，越不需要复杂的检索工具。<strong>代码自己就是最好的索引</strong>。</p><p data-paragraph="5-25"><strong>决策流：</strong></p><ol>
+<li>项目是否高透明度（标准分层、入口清晰）？是 → 先用精准路径 + LSP，不急着上图谱。</li>
+<li>是否经常读 10+ 文件仍找不到路径？否 → 先优化提问和给入口，不急着装工具。</li>
+<li>主要痛点是什么？<ul>
+<li>少翻文件、少调工具 → 试 CodeGraph</li>
+<li>文档/设计稿也要一起查 → 试 Graphify</li>
+<li>改动风险分析 → 试 GitNexus（注意许可证）</li>
+</ul></li>
+<li>固定 5–10 个真实问题做对照，把索引成本和工具常驻开销算进总账，再决定是否长期保留。</li>
+</ol></div><figure class="art">
+<a aria-label="放大查看 图 5-3 选工具的一条总原则与决策流" class="art-button" href="https://origin.picgo.net/2026/10/27/fig-5-3-doodle-v2ac231b894ea0201a.jpg"><img alt="图 5-3 选工具的一条总原则与决策流" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/27/fig-5-3-doodle-v2ac231b894ea0201a.jpg" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
+<figcaption>图 5-3 选工具的一条总原则与决策流<small>清单只是起点；上线两周后用真实任务复核，没有净收益就卸载。</small></figcaption>
 </figure></div></section>
 <section aria-labelledby="chapter-6" class="chapter" id="section-chapter-6"><div class="chapter-head"><span aria-hidden="true" class="chapter-no">06</span><div class="chapter-heading"><div class="chapter-label">COLLABORATION · 多 Agent</div><h2 id="chapter-6">第六章 多 Agent 与上下文隔离</h2><p data-paragraph="6-0">清楚的子任务边界、可验证的交付与简洁回传，决定分工是否值得。</p><span class="chapter-stamp">本章关键词 · 结论回传</span></div></div><div class="chapter-intro reading"><p data-paragraph="6-1">会话聊的轮次越多，携带的历史内容也会越多。但是不存在所谓"会话满 20 轮就会明显变慢"这种铁律。实际开销受每轮上下文大小、缓存、压缩策略、任务类型共同影响。真正要关注两件事：上下文体积是不是持续膨胀，哪些工作可以拆出去独立执行。</p><p data-paragraph="6-2">多 Agent 的思路很直接：把探索过程丢在子会话里，主会话只收结论和证据定位，这样主上下文就不会被撑爆。<strong>隔离效果好不好，取决于子任务到底继承了什么、回传了什么。</strong>子会话的记录留着备查就行，不用全灌回主会话。</p></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-6-1"><span class="subsection-number">6.1</span> <span class="subsection-title">高低搭配：主子模型的双重价格压缩</span></h3><p data-paragraph="6-3">多 Agent 最直接的降本手段是价格分工。主会话使用旗舰主力模型（如 Sonnet 5.5 / Opus 5.5），负责架构设计与核心代码审查。跑腿的子 Agent 指定单价便宜数倍至数十倍的轻量模型（如 Haiku 4.5 / Flash）。繁杂的摸索留在子会话，主会话只接收提炼后的结论，实现上下文体积与模型单价的双重压缩。</p><p data-paragraph="6-4">在 Java 后端日常开发里，下面三类场景最适合交给轻量子 Agent 处理：</p><ul>
 <li><strong>摸排配置与定位线索</strong>：排查未知故障时，往往需要在多个微服务工程中翻阅各类 <code>application.yml</code>、Nacos 规则或长串异常日志。让轻量子 Agent 独立去翻，即便在子会话里消耗了几万 Token，最终也只需向主会话汇报出问题的具体类名与配置项。</li>
@@ -745,17 +805,7 @@
 </div></div><figure class="art">
 <a aria-label="放大查看 图 7-2 Token 成本治理一页速查卡" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-7-2-doodledb44b4d47eeadb87.webp"><img alt="图 7-2 Token 成本治理一页速查卡" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-7-2-doodledb44b4d47eeadb87.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
 <figcaption>图 7-2 Token 成本治理一页速查卡<small>三条提醒分别是历史累积、前缀复用和量价分开；金额、字数与 Token 要分别记录。</small></figcaption>
-</figure></div><div class="reading-pair"><div class="topic-copy"><h3 id="sec-7-3">
-<span>今晚就能验证的三件事</span>
-</h3><p data-paragraph="7-6"><strong>不要为了节约少量 Token 牺牲交付健壮性，也不要盲目相信缺少统计分母的惊人优化比例</strong>。今晚不妨在你的开发工具里做三件立刻见效的对照实验：</p><p data-paragraph="7-7"><strong>第一件 · 测底噪</strong>：空白会话只发「Hello」，记录首次调用的输入与缓存用量；逐一开关扩展配置，摸清你环境里真实的系统底噪。</p><p data-paragraph="7-8"><strong>第二件 · 查来源</strong>：翻看一段历史长会话，统计人工输入、工具回显与历史滚雪球的各自体积；搞清楚过去哪一处在真正泄露 Token。</p><p data-paragraph="7-9"><strong>第三件 · 做对照</strong>：固定代码起点与验收标准，拿真实任务对比当前流程与「写交接卡 + 换会话」的成本差异。<small>如果所在平台拿不到细分账单，可以用完整任务的总耗时和总花费做粗粒度对照。</small></p><p data-paragraph="7-10">把这三件事做完，这些方法就不再是别人文章里的口号，而是你日常工程习惯里的肌肉记忆。</p><h4 id="sec-7-3-1"><span>鉴别降本宣传的三条底线</span></h4><p data-paragraph="7-11">最后，怎么判断网上传播的降本神话值不值得信？记住这三条试金石：</p>
-<ul>
-<li><strong>明确标注统计分母</strong>：讲清楚降幅统计对象，是单条命令输出、某类工具返回，还是完整任务总开销。</li>
-<li><strong>写明测试限定条件</strong>：说明项目语言、代码规模、运行环境，切勿把大型单体仓库的个别效果，当作普适结论。</li>
-<li><strong>分项效果可与总账核对</strong>：即便局部压缩收益可观，如果该部分原本占总开销比重很低，对整体账单改善也有限。新增模型调用还会抵消节省，评测必须同步提供任务质量与耗时。</li>
-</ul></div><figure class="art">
-<a aria-label="放大查看 图 7-3 行动指引（今晚称出你的初始底噪）" class="art-button" href="https://origin.picgo.net/2026/10/08/fig-7-3-doodle9704948be912e734.webp"><img alt="图 7-3 行动指引（今晚称出你的初始底噪）" decoding="async" height="1024" loading="lazy" src="https://origin.picgo.net/2026/10/08/fig-7-3-doodle9704948be912e734.webp" width="1024"/><span aria-hidden="true" class="zoom-hint">点击放大 ↗</span></a>
-<figcaption>图 7-3 行动指引（今晚称出你的初始底噪）<small>从自己的基线与任务对照开始。验证前缀缓存需要额外查看缓存用量，单纯换会话不能完成验证。</small></figcaption>
 </figure></div></section>
 </main>
 <footer class="footer"><span>如何让 AI 编程少花冤枉钱 · czm</span><span>更新于 2026.10.09</span><button class="print-button js-only" hidden="" type="button">打印 / 保存 PDF</button></footer></div>
-<dialog aria-labelledby="image-title" class="lightbox" id="image-dialog"><div class="lightbox-shell"><div class="lightbox-header"><p class="lightbox-title" id="image-title">图解</p><button autofocus="" class="lightbox-close" type="button">关闭 ×</button></div><div class="lightbox-stage"><button aria-label="切换图片原尺寸" aria-pressed="false" class="lightbox-image-button" type="button"><img alt="" height="1024" width="1024"/></button></div><p class="lightbox-help">点击图片切换放大 · 放大后可滚动查看 · Esc 关闭</p></div></dialog></body></html>
+<dialog aria-labelledby="image-title" class="lightbox" id="image-dialog"><div class="lightbox-shell"><div class="lightbox-header"><p class="lightbox-title" id="image-title">图解</p><button autofocus="" class="lightbox-close" type="button">关闭 ×</button></div><div class="lightbox-stage"><button aria-label="切换图片原尺寸" aria-pressed="false" class="lightbox-image-button" type="button"><img alt="" height="1024" width="1024"/></button></div><p class="lightbox-help">点击图片切换放大 · 点击空白处或按 Esc 关闭 · 放大后可滚动查看</p></div></dialog></body></html>
